@@ -1,0 +1,151 @@
+﻿  komodo.c
+  modbus-data.c
+  modbus-LT.c
+  modbus-rtu.c
+  modbus-tcp.c
+  modbus.c
+  core.c
+  descriptor.c
+  hotplug.c
+  io.c
+  poll_windows.c
+  threads_windows.c
+  windows_nt_common.c
+  windows_winusb.c
+  strerror.c
+  sync.c
+  LtCRCUtils.cpp
+  LtFileUtils.cpp
+  LtKeyboardUtils.cpp
+  LtMathUtils.cpp
+  LtStringUtils.cpp
+  LtSystemUtils.cpp
+  LtTimeUtils.cpp
+  LdBitFieldProperty.cpp
+  LdBoolProperty.cpp
+  LdBufferProperty.cpp
+  LdCanKomodo.cpp
+  LdCarrierEnhancedModbus.cpp
+  LdConnection.cpp
+  LdConnectionFactory.cpp
+  LdConnectionInfo.cpp
+  LdConnectionUniversal.cpp
+  LdConnectionUniversalCan.cpp
+  LdConnectionUniversalModbus.cpp
+  LdConnectionUniversalSpi.cpp
+  LdDevice.cpp
+  Compiling...
+  LdDeviceFactory.cpp
+  LdDoubleBuffer.cpp
+  LdEnumProperty.cpp
+  LdEthernet.cpp
+  LdFloatProperty.cpp
+  LdIntegerProperty.cpp
+  LdInterfaceCan.cpp
+  LdLibModbusSerial.cpp
+  LdLibUsb.cpp
+  LdLjrRecorder.cpp
+  LdLjrRecordReader.cpp
+  LdObject.cpp
+  LdPropertiesContainer.cpp
+  LdProperty.cpp
+  LdProtocolCan.cpp
+  LdProtocolLeddarTech.cpp
+  LdProtocolLeddartechUSB.cpp
+  LdRecordPlayer.cpp
+  LdResultEchoes.cpp
+  LdResultProvider.cpp
+  Compiling...
+  LdResultStates.cpp
+  LdSensor.cpp
+  LdSensorIS16.cpp
+  LdSensorM16.cpp
+  LdSensorM16Can.cpp
+  LdSensorM16Laser.cpp
+  LdSensorM16Modbus.cpp
+  LdSensorOneModbus.cpp
+  LdSensorVu.cpp
+  LdSensorVu8.cpp
+  LdSensorVu8Can.cpp
+  LdSensorVu8Modbus.cpp
+  LdSpiFTDI.cpp
+  LdTextProperty.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244: 'argument': conversion from 'const wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :             _Iter=const wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :             _Iter=const wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :             _Iter=const wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<const wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :             _Iter=const wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         ]
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         with
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         [
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Elem=wchar_t,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Alloc=std::allocator<char>
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         ]
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         with
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         [
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Elem=wchar_t,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Iter=std::_String_const_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :             _Alloc=std::allocator<char>
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(160): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:             _Elem=char
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2355,23): warning C4244:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :             _Iter=wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :             _Iter=wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2366): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :             _Iter=wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :             _Iter=wchar_t *
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xstring(2346): message :         ]
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         with
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         [
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Elem=wchar_t,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Alloc=std::allocator<char>
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         ]
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,void>(_Iter,_Iter,const _Alloc &)' being compiled
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         with
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         [
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Elem=wchar_t,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :             _Alloc=std::allocator<char>
+C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\Leddar\LdTextProperty.cpp(308): message :         ]
+  LeddarConfigurator4.vcxproj -> C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\LeddarSDK\src\LeddarConfigurator4\x64\Release\LeddarConfigurator4.lib
